@@ -1,0 +1,28 @@
+color_intrinsic:
+  fx: 643.90087890625
+  fy: 643.1365356445312
+  cx: 650.2113037109375
+  cy: 355.79559326171875
+  coeffs: [-0.05658450722694397, 0.06544225662946701, -0.0008694113348610699, 
+           0.00016751799557823688, -0.020957745611667633]
+
+ROI: [550, 150, 860, 480]  # x_min, y_min, x_max, y_max
+
+paths:
+  yolo_model: "./weights/best.pt"
+  root_dir: "./private_test/"
+  output_file: "Submission_3D.csv"
+  debug_folder: "debug"
+
+detection:
+  confidence_threshold: 0.8
+  iou_threshold: 0.5
+  scale: 0.65
+
+depth:
+  strategy: "center"  # Options: "center", "mean_orig", "mean_scaled"
+  
+pointcloud:
+  knn: 30
+  normal_radius_percentile: 65
+  max_radius: 0.1
