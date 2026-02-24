@@ -1,5 +1,7 @@
 # 3D Parcel Detection Pipeline
 
+This is the code that helps me reach in top 15 in the private test for the Computer Vision task in Viettel AI Race 2025
+
 ## Installation
 
 ```bash
@@ -46,7 +48,6 @@ project/
 ## Output
 
 - `Submission_3D.csv`: Final results
-- `debug/debugN/`: Debug visualizations and config
 
 ## Key Features
 
@@ -56,6 +57,8 @@ project/
 - **Debug Visualization**: Automatic debug output
 - **Error Handling**: Graceful fallbacks
 
-## License
 
+For accessing the dataset, you can contact me via email: nguyenvuongtrunghieuu9@gmail.com
+
+## License
 MIT
